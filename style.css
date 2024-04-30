@@ -18,6 +18,31 @@ main{
     color: white;
 }
 
+.btn{
+    font-size: 1rem;
+    padding:1.5rem 2.5rem;
+    line-height: 1.7em;
+    color: white;
+    font-weight:400;
+    background-color: hsl(248, 32%, 49%) ;
+    border: none;
+    border-radius: 13px;
+    text-align:center;
+}
+
+.btn>p{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.btn>p>span{
+    color: white;
+    font-weight: bold;
+}
+
+
 .forms{
     display: flex;
     flex-direction: column;
@@ -34,6 +59,7 @@ form{
     padding: 1.5rem;
     border: none;
     border-radius: 10px;
+    box-shadow: 1px 8px rgba(0, 0, 0, 0.1); 
 }
 
 #first,#last,#email,#password{
@@ -58,7 +84,6 @@ form>p{
     color: grey;
     text-align: center;
     line-height: 2em;
-    border: 1px solid pink;
     width: 260px;
 }
 
